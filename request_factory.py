@@ -1,6 +1,5 @@
 from lxml.html import fromstring
 import requests
-from bs4 import BeautifulSoup
 from random import randint
 from fake_useragent import UserAgent
 
