@@ -62,4 +62,4 @@ if __name__ == '__main__':
     response = request.get("https://www.google.it")
     
     print(response.status_code)
-    print(response.text)
+    #print(response.text)

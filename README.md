@@ -31,3 +31,5 @@ python -m request_factory.py
 ```
 
 4. To use class as library you need to add __init__.py file to folder
+
+Full article [here](https://www.paolotine.it/webscraping-in-python-rotazione-di-proxy-e-fake-user-agent/)
