@@ -57,8 +57,9 @@ class RequestFactory():
         return r
 
 if __name__ == '__main__':    
+    
     request = RequestFactory().get_request()
     response = request.get("https://www.google.it")
     
     print(response.status_code)
-    print(response.json)
+    print(response.text)
