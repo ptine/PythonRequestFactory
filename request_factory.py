@@ -59,7 +59,7 @@ class RequestFactory():
 if __name__ == '__main__':    
     
     request = RequestFactory().get_request()
-    response = request.get("https://www.google.it")
+    response = request.get("https://api.ipify.org?format=json")
     
     print(response.status_code)
     #print(response.text)
