@@ -62,4 +62,4 @@ if __name__ == '__main__':
     response = request.get("https://api.ipify.org?format=json")
     
     print(response.status_code)
-    #print(response.text)
+    print(response.json())
